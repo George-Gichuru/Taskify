@@ -1,9 +1,16 @@
 
 const OrganizationPage = () => {
     return (
-        <div>
-            Organzation page - this is where our organizations will be located
-        </div>
+        <form>
+            <input 
+                id="title"
+                name="title"
+                required
+                placeholder="Enter a board name"
+                className="border-black border p-1"
+            />
+
+        </form>
     )
 }
 
