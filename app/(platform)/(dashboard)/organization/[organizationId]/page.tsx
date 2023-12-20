@@ -9,6 +9,7 @@ const OrganizationPage = () => {
                 placeholder="Enter a board name"
                 className="border-black border p-1"
             />
+            
 
         </form>
     )
